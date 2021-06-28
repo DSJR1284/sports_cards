@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-    belongs_to: card
+    has_many :cards
 end
