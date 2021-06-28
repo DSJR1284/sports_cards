@@ -10,7 +10,8 @@ class CategoriesController < ApplicationController
 
   # GET /categories/1
   def show
-    render json: @category
+    @cards = @category.cards
+    render json: @cards
   end
 
   # POST /categories
