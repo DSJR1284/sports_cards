@@ -25,13 +25,13 @@ class CardsController < ApplicationController
   end
 
   # PATCH/PUT /cards/1
-  def update
-    if @card.update(card_params)
-      render json: @card
-    else
-      render json: @card.errors, status: :unprocessable_entity
-    end
-  end
+  # def update
+  #   if @card.update(card_params)
+  #     render json: @card
+  #   else
+  #     render json: @card.errors, status: :unprocessable_entity
+  #   end
+  # end
 
   # DELETE /cards/1
   def destroy
@@ -46,6 +46,6 @@ class CardsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def card_params
-      params.require(:card).permit(:name, :image, :sport, :team, :position)
+      params.require(:card).permit(:name, :image, :category_id, :team, :position)
     end
 end
