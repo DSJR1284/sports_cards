@@ -6,17 +6,17 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Category.create(sport: "football")
+# Category.create(sport: "football")
 
-Category.create(sport: "basketball")
+# Category.create(sport: "basketball")
 
-Category.create(sport: "baseball")
+# Category.create(sport: "baseball")
 
-Category.create(sport: "hockey")
+# Category.create(sport: "hockey")
 
 
-# Card.create(name: "Micheal Vick", image: "https://www.biography.com/.image/t_share/MTIwNjA4NjMzNjA2MzQyMTU2/michael-vick-241100-1-402.jpg", sport: "Football", team: "Atlanta Falcons", postion: "QB")
+Card.create(name: "Micheal Vick", image: "https://www.biography.com/.image/t_share/MTIwNjA4NjMzNjA2MzQyMTU2/michael-vick-241100-1-402.jpg", category_id: 1, team: "Atlanta Falcons", position: "QB")
 
-# Card.create(name: "Derrick Rose", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4WUS4sy2rM7nHdEG18d1qZ-gWAoaA2PXipQ&usqp=CAU", sport: "Basketball", team: "Chicago Bulls", postion: "PG")
+Card.create(name: "Derrick Rose", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4WUS4sy2rM7nHdEG18d1qZ-gWAoaA2PXipQ&usqp=CAU", category_id: 2, team: "Chicago Bulls", position: "PG")
 
 

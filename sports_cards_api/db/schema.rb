@@ -10,12 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_28_234138) do
+ActiveRecord::Schema.define(version: 2021_06_29_001535) do
 
   create_table "cards", force: :cascade do |t|
     t.string "name"
     t.string "image"
-    t.string "sport"
     t.string "team"
     t.string "position"
     t.integer "category_id"
