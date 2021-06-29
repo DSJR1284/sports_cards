@@ -6,13 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Category.create(sport: "Football")
+Category.create(sport: "football")
 
-Category.create(sport: "Basketball")
+Category.create(sport: "basketball")
 
-Category.create(sport: "Baseball")
+Category.create(sport: "baseball")
 
-Category.create(sport: "Hockey")
+Category.create(sport: "hockey")
 
 
 # Card.create(name: "Micheal Vick", image: "https://www.biography.com/.image/t_share/MTIwNjA4NjMzNjA2MzQyMTU2/michael-vick-241100-1-402.jpg", sport: "Football", team: "Atlanta Falcons", postion: "QB")

@@ -1,8 +1,8 @@
 class Category < ApplicationRecord
     has_many :cards
 
-    private 
-    def set_slug
-        self.slug = sport
-    end 
+    def to_param
+        "#{sport}"
+    end
+  
 end
